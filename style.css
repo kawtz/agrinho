@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    background-color: #006400;
+    padding: 20px 0;
+  }
+  .logo {
+    height: 50px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e5f4e3;
+  }
+  .hero h1 {
+    font-size: 2.5em;
+    color: #006400;
+  }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  
+  .sobre, .projetos, .galeria, .contato {
+    padding: 60px 20px;
+    background-color: white;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 45%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .fotos img {
+    width: 30%;
+    border-radius: 8px;
+  }
+  
+  .contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contato input, .contato textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  .contato button {
+    background-color: #006400;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  footer .social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
